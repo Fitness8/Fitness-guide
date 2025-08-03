@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fitness Guide - Your source for workouts, diet plans, and healthy living." />
+  <title>Fitness Guide</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header, footer {
+      background: #2c3e50;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .container {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+    article {
+      margin-bottom: 30px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    form button {
+      background: #27ae60;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+    }
+    footer p {
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fitness Guide</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+      <a href="#privacy">Privacy Policy</a>
+    </nav>
+  </header>
+
+  <section id="home" class="container">
+    <h2>Welcome to Fitness Guide</h2>
+    <p>Your source for reliable workout tips, diet plans, and overall wellness guidance.</p>
+  </section>
+
+  <section id="about" class="container">
+    <h2>About Us</h2>
+    <p>Fitness Guide is dedicated to helping people achieve their fitness goals through educational content and practical advice on exercise and nutrition.</p>
+  </section>
+
+  <section id="blog" class="container">
+    <h2>Fitness Blog</h2>
+
+    <article>
+      <h3>1. 5 Beginner-Friendly Home Workouts</h3>
+      <p>These workouts require no equipment and are perfect for building strength and stamina at home.</p>
+    </article>
+
+    <article>
+      <h3>2. Importance of Hydration in Fitness</h3>
+      <p>Staying hydrated boosts your energy, metabolism, and overall performance during workouts.</p>
+    </article>
+
+    <article>
+      <h3>3. Simple Meal Plan for Weight Loss</h3>
+      <p>A sample meal plan including healthy carbs, lean proteins, and healthy fats to guide your weight loss journey.</p>
+    </article>
+
+    <article>
+      <h3>4. Stretching Routine to Prevent Injury</h3>
+      <p>Incorporating stretching before and after workouts can help avoid common injuries and improve flexibility.</p>
+    </article>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <section id="privacy" class="container">
+    <h2>Privacy Policy</h2>
+    <p>We respect your privacy. No personal data is collected without your consent. Third-party ads may use cookies to personalize content.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Fitness Guide. All rights reserved.</p>
+  </footer>
+</body>
+</html>
